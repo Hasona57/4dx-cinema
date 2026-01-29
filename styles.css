@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    overflow: hidden;
+}
+canvas {
+    width: 100vw;
+    height: 100vh;
+    display: block;
+}
+#info {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+#UI {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+}
+#UI button {
+    padding: 10px 15px;
+    background: #00ffff;
+    border: none;
+    cursor: pointer;
+}

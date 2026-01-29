@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inside 4DX</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <canvas id="main-three-canvas"></canvas>
+    <div id="info">
+        <h1>Inside 4DX</h1>
+        <p>Explore the immersive world of 4DX technology through this interactive 3D experience, Where seats move, fans blow air, and lights react to the movie.</p>
+    </div>
+    <div id="UI">
+        <button id="toggleButton">Toggle 4DX</button>
+    </div>
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@0.158.0/build/three.module.js",
+                "three/addons/": "https://unpkg.com/three@0.158.0/examples/jsm/"
+            }
+        }
+    </script>
+    <script type="module" src="script.js"></script>
+</body>
+</html>
